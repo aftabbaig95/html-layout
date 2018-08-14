@@ -1,0 +1,78 @@
+
+
+
+.top-container {
+    width: 97%; 
+    height: 25vh; 
+    margin: 20px auto auto auto ; 
+    border: 5px solid black; 
+    display: flex; 
+    flex-direction: row; 
+
+
+}
+.purplebox{
+    position: absolute; 
+    width: 3%; 
+    height: 20vh; 
+    background-color: blueviolet; 
+    margin: 20px 5px 5px 20px; 
+}
+.greenbox {
+    
+    width: 30%; 
+    height: 20vh; 
+    background-color: green; 
+    margin: 10px 5px 5px 150px; 
+
+}
+.bluecircle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    background-color: #80d4ff;
+    display: inline-block; 
+    margin: auto auto auto 75px; 
+}
+
+.middle-container{
+    border: 5px dotted black;
+    width: 97%;
+    padding: 50px;
+    box-sizing: border-box ;
+    margin-top: 25px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+    box-sizing: border-box ;
+    
+
+  }
+
+.tanbox{
+    background-color: #f9f5d2; 
+    width: 100%;
+    height: 200px; 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.bottom-container {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  }
+.bottom-container h1{
+    width: 100%;
+    height: 20px; 
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+
+  }
